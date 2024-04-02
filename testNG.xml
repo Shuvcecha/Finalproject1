@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<suite name="Ebay">
+    <listeners>
+        <listener class-name="Listener"></listener>
+    </listeners>
+    <test name="Regression">
+        <classes>
+            <class name="HeaderTest"></class>
+            <class name="EbaySearchboxTest"></class>
+            <class name="EbayFooterTest"></class>
+            <class name="LogoTest"></class>
+            <class name="FashionPageTest"></class>
+            <class name="TestWindowhandle"></class>
+            <class name="iframetest"></class>
+
+        </classes>
+
+    </test>
+</suite>
